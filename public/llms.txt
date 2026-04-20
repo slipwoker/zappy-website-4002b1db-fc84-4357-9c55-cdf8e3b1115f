@@ -1,35 +1,45 @@
-# Business — Generative Engine Optimization Map
+# שחר — Generative Engine Optimization Map
+
+> Shachar is a personal brand in the digital marketing and social media space with 5 years of experience helping business owners stop guessing and start creating content that actually brings in clients. The brand has a strong, confident, and empowering tone aimed at small business owners who feel frustrated with content that gets likes but no leads. The landing page promotes a free downloadable guide ('7 Types of Posts That Bring Clients') and uses an automated WhatsApp message delivery system post-signup. The brand's vibe is professional yet warm, with a luxury-minimalist aesthetic inspired by online academy and course platforms.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://shachar.zappy5.app
 בעל עסק שמעלה תוכן ולא רואה תוצאות? קבל עכשיו את המדריך החינמי עם 7 סוגי פוסטים שמביאים לקוחות אמיתיים — ישירות לוואטסאפ שלך.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://shachar.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://shachar.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://shachar.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About שחר
+Shachar is a personal brand in the digital marketing and social media space with 5 years of experience helping business owners stop guessing and start creating content that actually brings in clients. The brand has a strong, confident, and empowering tone aimed at small business owners who feel frustrated with content that gets likes but no leads. The landing page promotes a free downloadable guide ('7 Types of Posts That Bring Clients') and uses an automated WhatsApp message delivery system post-signup. The brand's vibe is professional yet warm, with a luxury-minimalist aesthetic inspired by online academy and course platforms.
+
+## Target Audience
+בעלי עסקים שמעלים תוכן ברשתות חברתיות ולא רואים תוצאות
+
+## Industry
+שיווק דיגיטלי וסושיאל מדיה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://shachar.zappy5.app/sitemap.xml
+- **Robots.txt**: https://shachar.zappy5.app/robots.txt
