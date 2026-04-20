@@ -245,6 +245,484 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  background-color: #FCFAF7;
+  background-image:
+    radial-gradient(circle at 80% 10%, rgba(201,151,66,0.07) 0%, transparent 42%),
+    radial-gradient(circle at 10% 80%, rgba(201,151,66,0.05) 0%, transparent 36%),
+    linear-gradient(180deg, #FCFAF7 0%, #F2EBE2 100%);
+  color: var(--text-dark);
+  overflow: visible;
+  padding: 140px 24px 80px;
+  direction: rtl;
+}
+
+.index-hero-section .index-hero-bg-pattern {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(201,151,66,0.06) 0, rgba(201,151,66,0.00) 34%),
+    radial-gradient(circle at 80% 0%, rgba(201,151,66,0.05) 0, rgba(201,151,66,0) 28%);
+}
+
+.index-hero-section .index-hero-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  direction: rtl;
+}
+
+/* ── CONTENT COLUMN (right in RTL) ── */
+.index-hero-section .index-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: right;
+}
+
+/* Badge */
+.index-hero-section .index-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(201,151,66,0.10);
+  border: 1px solid rgba(201,151,66,0.30);
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #B98533;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.index-hero-section .index-hero-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #D7A44A 0%, #B98533 100%);
+  flex-shrink: 0;
+  animation: index-hero-pulse 2s ease-in-out infinite;
+}
+
+@keyframes index-hero-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(0.85); }
+}
+
+/* H1 */
+.index-hero-section .index-hero-h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: #2C2622;
+  margin: 0;
+  text-align: right;
+}
+
+/* Subtitle H3 */
+.index-hero-section .index-hero-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #7F756B;
+  margin: 0;
+  text-align: right;
+}
+
+/* Trust badges */
+.index-hero-section .index-hero-trust-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.index-hero-section .index-hero-trust-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #5a524a;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-trust-badge i {
+  color: #C99742;
+  font-size: 13px;
+}
+
+.index-hero-section .index-hero-trust-sep {
+  width: 1px;
+  height: 14px;
+  background: #D4C9BB;
+  flex-shrink: 0;
+}
+
+/* Price block */
+.index-hero-section .index-hero-price-block {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.index-hero-section .index-hero-price-old {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #B0A89E;
+  text-decoration: line-through;
+  text-decoration-color: rgba(176,168,158,0.7);
+}
+
+.index-hero-section .index-hero-price-current {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  background: linear-gradient(180deg, #D2A24D 0%, #B98533 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.index-hero-section .index-hero-price-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #C99742;
+  background: rgba(201,151,66,0.10);
+  border-radius: 4px;
+  padding: 4px 10px;
+  align-self: center;
+}
+
+/* CTA */
+.index-hero-section .index-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #D2A24D 0%, #C99742 100%);
+  color: #FFFDF9;
+  padding: 16px 36px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(116,82,34,0.22), 0 1px 0 rgba(255,255,255,0.18) inset;
+  transition: all 0.28s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(116,82,34,0.28);
+  color: #FFFDF9;
+}
+
+.index-hero-section .index-hero-cta-arrow {
+  font-size: 14px;
+  transition: transform 0.25s ease;
+}
+
+.index-hero-section .index-hero-cta:hover .index-hero-cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* Micro proof */
+.index-hero-section .index-hero-micro-proof {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #9E9690;
+  margin: 0;
+  text-align: right;
+}
+
+.index-hero-section .index-hero-micro-proof strong {
+  color: #7F756B;
+  font-weight: 700;
+}
+
+/* ── MEDIA COLUMN (left in RTL) ── */
+.index-hero-section .index-hero-media {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.index-hero-section .index-hero-img-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
+.index-hero-section .index-hero-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(70,47,24,0.18);
+}
+
+/* Gold decorative ring */
+.index-hero-section .index-hero-gold-ring {
+  position: absolute;
+  inset-inline-end: -18px;
+  top: -18px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid rgba(201,151,66,0.25);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.index-hero-section .index-hero-gold-ring::after {
+  content: '';
+  position: absolute;
+  inset: 12px;
+  border-radius: 50%;
+  border: 1px solid rgba(201,151,66,0.15);
+}
+
+/* Zoom card overlay */
+.index-hero-section .index-hero-zoom-card {
+  position: absolute;
+  bottom: 32px;
+  inset-inline-start: -32px;
+  background: rgba(255,252,247,0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(201,151,66,0.20);
+  border-radius: 12px;
+  padding: 14px 18px;
+  box-shadow: 0 14px 36px rgba(70,47,24,0.16);
+  min-width: 220px;
+  z-index: 10;
+  direction: rtl;
+}
+
+.index-hero-section .index-hero-zoom-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.index-hero-section .index-hero-zoom-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.index-hero-section .index-hero-zoom-dot.red { background: #FF5F57; }
+.index-hero-section .index-hero-zoom-dot.yellow { background: #FFBD2E; }
+.index-hero-section .index-hero-zoom-dot.green { background: #28C840; }
+
+.index-hero-section .index-hero-zoom-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: #9E9690;
+  margin-inline-start: 6px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.index-hero-section .index-hero-zoom-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.index-hero-section .index-hero-zoom-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #D7A44A 0%, #B98533 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFDF9;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.index-hero-section .index-hero-zoom-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  text-align: right;
+}
+
+.index-hero-section .index-hero-zoom-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2C2622;
+}
+
+.index-hero-section .index-hero-zoom-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  color: #9E9690;
+}
+
+.index-hero-section .index-hero-zoom-live {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #E53E3E;
+  letter-spacing: 0.06em;
+  background: rgba(229,62,62,0.08);
+  border-radius: 4px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-zoom-participants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  border-top: 1px solid rgba(201,151,66,0.15);
+  padding-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #7F756B;
+  font-weight: 500;
+}
+
+.index-hero-section .index-hero-zoom-participants i {
+  color: #C99742;
+  font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .index-hero-section {
+    padding: 110px 20px 60px;
+  }
+
+  .index-hero-section .index-hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .index-hero-section .index-hero-media {
+    order: -1;
+    justify-content: center;
+  }
+
+  .index-hero-section .index-hero-img-wrapper {
+    max-width: 380px;
+  }
+
+  .index-hero-section .index-hero-zoom-card {
+    inset-inline-start: -16px;
+    bottom: 20px;
+    min-width: 190px;
+  }
+
+  .index-hero-section .index-hero-content {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .index-hero-section {
+    padding: 100px 16px 48px;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: 1.75rem;
+  }
+
+  .index-hero-section .index-hero-subtitle {
+    font-size: 15px;
+  }
+
+  .index-hero-section .index-hero-br {
+    display: none;
+  }
+
+  .index-hero-section .index-hero-trust-row {
+    gap: 8px;
+  }
+
+  .index-hero-section .index-hero-trust-sep {
+    display: none;
+  }
+
+  .index-hero-section .index-hero-trust-badge {
+    font-size: 12px;
+  }
+
+  .index-hero-section .index-hero-price-current {
+    font-size: 34px;
+  }
+
+  .index-hero-section .index-hero-cta {
+    width: 100%;
+    justify-content: center;
+    padding: 15px 24px;
+    font-size: 15px;
+  }
+
+  .index-hero-section .index-hero-img-wrapper {
+    max-width: 300px;
+  }
+
+  .index-hero-section .index-hero-zoom-card {
+    inset-inline-start: 0;
+    bottom: 12px;
+    min-width: 170px;
+    padding: 10px 12px;
+  }
+
+  .index-hero-section .index-hero-gold-ring {
+    width: 80px;
+    height: 80px;
+    inset-inline-end: -10px;
+    top: -10px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -793,70 +1271,87 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image -->
-  <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A bright, polished lifestyle portrait of a confident Israeli woman named Shachar in her late 20s to early 30s, working at a clean minimal desk with a laptop and smartphone. She is creating social media content, looking engaged and professional. The setting is a warm, light-filled studio or home office with cream and white tones, soft natural light from the side, minimal decor, gold or warm accents. The mood is premium, calm, and aspirational — like a high-end online academy brand photo. Full bleed, vertical or portrait orientation, editorial quality." width="1440" height="900" src="/assets/site-index-hero-image-1.webp" alt="שחר יוצרת תוכן דיגיטלי במשרד מינימליסטי ואסתטי">
-  </div>
-
-  <!-- Scrim Overlay -->
-  <div class="index-hero-scrim" aria-hidden="true"></div>
-
-  <!-- Content Card -->
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="side-by-side">
   <div class="index-hero-container">
-    <div class="index-hero-card">
 
-      <!-- Label -->
-      <span class="index-hero-label">מדריך חינמי להורדה</span>
+    <!-- Right column: content -->
+    <div class="index-hero-content">
 
-      <!-- H1 -->
-      <h1 class="index-hero-h1">7 סוגי פוסטים שמביאים לקוחות<br><span class="index-hero-h1-accent">ולא רק לייקים</span></h1>
+      <!-- Gold badge label -->
+      <div class="index-hero-badge">
+        <span class="index-hero-badge-dot"></span>
+        סדנה מוקלטת&nbsp;&nbsp;|&nbsp;&nbsp;גישה מיידית
+      </div>
 
-      <!-- H3 -->
-      <h3 class="index-hero-h3">המדריך שיגלה לך בדיוק מה להעלות כדי לקבל פניות מהתוכן שלך — בלי לנחש כל יום מחדש</h3>
+      <!-- Main headline -->
+      <h1 class="index-hero-h1">איך ליצור תוכן שמביא לקוחות —<br>ולא רק לייקים</h1>
 
-      <!-- Paragraph -->
-      <p class="index-hero-para">אם את/ה מעלה תוכן ולא רואה תוצאות — הבעיה היא לא בך, אלא באיך שהתוכן בנוי.</p>
+      <!-- Subtitle -->
+      <h3 class="index-hero-subtitle">סדנה מוקלטת שתראה לכם בדיוק מה להעלות<br class="index-hero-br"> כדי להתחיל לקבל פניות מהתוכן שלכם</h3>
 
-      <!-- Form -->
-      <form class="contact-form index-hero-form" novalidate="">
-        <div class="index-hero-field">
-          <label for="hero-name" class="index-hero-field-label">שם פרטי</label>
-          <input type="text" id="hero-name" name="name" placeholder="השם שלך" class="index-hero-input" required="">
-        </div>
-        <div class="index-hero-field">
-          <label for="hero-phone" class="index-hero-field-label">וואטסאפ <span class="index-hero-required">(חובה)</span></label>
-          <input type="tel" id="hero-phone" name="phone" placeholder="מספר הוואטסאפ שלך" class="index-hero-input" required="">
-        </div>
-        <div class="index-hero-field">
-          <label for="hero-email" class="index-hero-field-label">אימייל <span class="index-hero-optional">(אופציונלי)</span></label>
-          <input type="email" id="hero-email" name="email" placeholder="כתובת האימייל שלך" class="index-hero-input">
-        </div>
+      <!-- Trust badges row -->
+      <div class="index-hero-trust-row">
+        <span class="index-hero-trust-badge"><i class="fa-solid fa-bolt"></i> גישה מיידית</span>
+        <span class="index-hero-trust-sep"></span>
+        <span class="index-hero-trust-badge"><i class="fa-solid fa-play-circle"></i> צפייה מכל מקום</span>
+        <span class="index-hero-trust-sep"></span>
+        <span class="index-hero-trust-badge"><i class="fa-solid fa-clock"></i> בלי תלות בזמן</span>
+      </div>
 
-        <div class="privacy-consent">
-          <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
-            <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
-          </label>
-        </div>
+      <!-- Price block -->
+      <div class="index-hero-price-block">
+        <span class="index-hero-price-old">297₪</span>
+        <span class="index-hero-price-current">97₪</span>
+        <span class="index-hero-price-label">הטבה לזמן מוגבל</span>
+      </div>
 
-        <button type="submit" class="index-hero-btn">שלחו לי את המדריך עכשיו</button>
+      <!-- CTA button -->
+      <a href="#signup" class="index-hero-cta btn-primary">
+        קבלו גישה לסדנה עכשיו
+        <i class="fa-solid fa-arrow-left index-hero-cta-arrow"></i>
+      </a>
 
-        <p class="index-hero-microcopy">
-          <i class="fa-solid fa-bolt" aria-hidden="true"></i>
-          הורדה מיידית · גישה חינמית לחלוטין
-        </p>
-      </form>
+      <!-- Social proof micro line -->
+      <p class="index-hero-micro-proof">הצטרפו ל-<strong>+500</strong> בעלי עסקים שכבר יצרו תוכן שמביא פניות</p>
 
     </div>
+
+    <!-- Left column: image -->
+    <div class="index-hero-media">
+      <div class="index-hero-img-wrapper">
+        <img data-hero-bg="true" data-context="Professional portrait of an Israeli woman named Shachar, digital marketing expert and social media mentor. She is smiling confidently, dressed in elegant minimalist clothing, sitting or standing in a bright modern workspace. The photo style is editorial and premium, warm natural light, clean background. She looks approachable yet authoritative — the kind of mentor you trust immediately. Suitable for a luxury online academy landing page." src="/assets/section-בית-hero-index-hero-image-1.webp" alt="שחר — מומחית שיווק דיגיטלי וסושיאל מדיה" width="580" height="680" class="index-hero-photo">
+        <!-- Floating Zoom screenshot card -->
+        <div class="index-hero-zoom-card">
+          <div class="index-hero-zoom-header">
+            <span class="index-hero-zoom-dot red"></span>
+            <span class="index-hero-zoom-dot yellow"></span>
+            <span class="index-hero-zoom-dot green"></span>
+            <span class="index-hero-zoom-title">Shachar — Live Workshop</span>
+          </div>
+          <div class="index-hero-zoom-body">
+            <div class="index-hero-zoom-avatar">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="index-hero-zoom-info">
+              <span class="index-hero-zoom-name">שחר</span>
+              <span class="index-hero-zoom-sub">מארחת • סדנה חי</span>
+            </div>
+            <span class="index-hero-zoom-live">● LIVE</span>
+          </div>
+          <div class="index-hero-zoom-participants">
+            <i class="fa-solid fa-users"></i>
+            <span>512 משתתפים</span>
+          </div>
+        </div>
+        <!-- Gold decorative accent -->
+        <div class="index-hero-gold-ring"></div>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Bottom Arc Divider -->
-  <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,60 Q180,10 360,40 Q540,68 720,30 Q900,0 1080,28 Q1260,52 1440,18 L1440,90 Z" fill="#FCFAF7"></path>
-    </svg>
-  </div>
+  <!-- Subtle background pattern -->
+  <div class="index-hero-bg-pattern" aria-hidden="true"></div>
 
 </section>
 
@@ -865,9 +1360,9 @@
 
     <!-- Centered Title Area -->
     <div class="index-problem-header">
-      <span class="index-problem-eyebrow">הבעיה האמיתית</span>
-      <h2 class="index-problem-title">למה התוכן שלך לא מביא לקוחות?</h2>
-      <p class="index-problem-subtitle">שיווק תוכן לבעלי עסקים קטנים מתחיל בהבנה אחת פשוטה — לייקים זה לא עסק.</p>
+      <span class="index-problem-eyebrow">למה זה לא עובד עד עכשיו</span>
+      <h2 class="index-problem-title">מעלים תוכן — אבל הפניות לא מגיעות?</h2>
+      <p class="index-problem-subtitle">רוב בעלי העסקים מעלים תוכן בלי מבנה. הסדנה הזו נותנת לכם בדיוק את המבנה הזה.</p>
     </div>
 
     <!-- Two-Column Grid -->
@@ -875,11 +1370,11 @@
 
       <!-- Narrative Text Column (START = right in RTL) -->
       <div class="index-problem-narrative">
-        <p class="index-problem-lead">אתם משקיעים בתוכן — מצלמים, כותבים, מעלים פוסטים.</p>
-        <p>אבל בפועל? הפניות לא מגיעות.</p>
+        <p class="index-problem-lead">אתם מעלים פוסטים כל שבוע — מצלמים, כותבים, משקיעים זמן.</p>
+        <p>אבל בפועל? שקט. אין פניות, אין לקוחות.</p>
         <p>זה לא אומר שהעסק שלכם לא טוב.<br>זה אומר שהתוכן לא בנוי בצורה שמובילה לפעולה.</p>
         <div class="index-problem-accent-line"></div>
-        <p class="index-problem-closing">כשתבינו <strong>אילו פוסטים שמביאים לקוחות</strong> באמת — הכל משתנה. לא עוד ניחושים. לא עוד תוכן שנעלם לאוויר.</p>
+        <p class="index-problem-closing">בסדנה הזו תלמדו בדיוק מה לשנות — ותתחילו לקבל פניות מהפוסט הבא שלכם.</p>
       </div>
 
       <!-- Insight Cards Column (END = left in RTL) -->
@@ -890,8 +1385,8 @@
             <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
           </div>
           <div class="index-problem-card-body">
-            <h3 class="index-problem-card-title">מאמץ ללא תוצאה</h3>
-            <p class="index-problem-card-text">אתם נוכחים ברשתות, אבל התוכן לא הופך תשומת לב לשיחות עסקיות אמיתיות.</p>
+            <h3 class="index-problem-card-title">תוכן בלי כיוון</h3>
+            <p class="index-problem-card-text">אתם נוכחים ברשתות, אבל התוכן לא ממיר עניין לפניות ולשיחות עסקיות.</p>
           </div>
         </article>
 
@@ -900,8 +1395,8 @@
             <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
           </div>
           <div class="index-problem-card-body">
-            <h3 class="index-problem-card-title">לייקים בלי לידים</h3>
-            <p class="index-problem-card-text">מעורבות יכולה להיראות מעודדת — ועדיין לא לבנות אמון, דחיפות, או צעד הבא ברור.</p>
+            <h3 class="index-problem-card-title">מעורבות בלי מכירות</h3>
+            <p class="index-problem-card-text">לייקים ותגובות נחמדים — אבל הם לא משלמים חשבונות. הסדנה תלמד אתכם לסגור את הפער.</p>
           </div>
         </article>
 
@@ -910,7 +1405,7 @@
             <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"></path></svg>
           </div>
           <div class="index-problem-card-body">
-            <h3 class="index-problem-card-title">ניחוש מתמיד</h3>
+            <h3 class="index-problem-card-title">אין מערכת — יש כאוס</h3>
             <p class="index-problem-card-text">בלי מסגרת ברורה לתוכן, כל פוסט חדש מרגיש כמו להתחיל מאפס — שוב ושוב.</p>
           </div>
         </article>
@@ -1116,7 +1611,7 @@
   </div>
   <div class="index-stats-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 64" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,64 L0,28 L0,32 Q100,20 200,28 Q300,36 400,22 Q500,10 600,24 Q700,36 800,20 Q900,8 1000,22 Q1100,34 1200,18 L1200,64 Z" fill="#FCFAF7"></path>
+      <path d="M0,64 L0,28 L0,32 Q100,20 200,28 Q300,36 400,22 Q500,10 600,24 Q700,36 800,20 Q900,8 1000,22 Q1100,34 1200,18 L1200,64 Z" fill="#FFFFFF"></path>
     </svg>
   </div>
 </section>
