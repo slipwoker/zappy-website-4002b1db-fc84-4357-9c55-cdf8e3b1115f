@@ -6305,6 +6305,48 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Heebo', sans-serif; font-weight: 800; }
     height: 30px;
   }
 }
+
+.index-hero-section .index-hero-media {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.index-hero-section .index-hero-img-wrapper {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-hero-section #zappy-element-1776685857017-x3a7gwizx {
+  flex: 1 !important;
+  height: 100% !important;
+  min-height: 400px !important;
+}
+
+.index-hero-section #zappy-element-1776685857017-x3a7gwizx[data-zappy-media-cell] {
+  height: 100% !important;
+  min-height: 400px !important;
+}
+
+.index-hero-section [data-zappy-zoom-wrapper][data-element-id="zappy-element-1776685857017-x3a7gwizx"] {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 400px !important;
+}
+
+.index-hero-section [data-zappy-zoom-wrapper][data-element-id="zappy-element-1776685857017-x3a7gwizx"] img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.index-hero-section .zappy-horizontal-grid[id="zappy-horizontal-grid-1776685857070-xg3hf0"] {
+  flex: 1 !important;
+  height: 100% !important;
+  align-items: stretch !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
