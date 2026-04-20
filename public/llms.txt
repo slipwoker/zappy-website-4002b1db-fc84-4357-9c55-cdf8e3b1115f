@@ -1,6 +1,4 @@
-# שחר — Generative Engine Optimization Map
-
-> Shachar is a personal brand in the digital marketing and social media space with 5 years of experience helping business owners stop guessing and start creating content that actually brings in clients. The brand has a strong, confident, and empowering tone aimed at small business owners who feel frustrated with content that gets likes but no leads. The landing page promotes a free downloadable guide ('7 Types of Posts That Bring Clients') and uses an automated WhatsApp message delivery system post-signup. The brand's vibe is professional yet warm, with a luxury-minimalist aesthetic inspired by online academy and course platforms.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -28,15 +26,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About שחר
-Shachar is a personal brand in the digital marketing and social media space with 5 years of experience helping business owners stop guessing and start creating content that actually brings in clients. The brand has a strong, confident, and empowering tone aimed at small business owners who feel frustrated with content that gets likes but no leads. The landing page promotes a free downloadable guide ('7 Types of Posts That Bring Clients') and uses an automated WhatsApp message delivery system post-signup. The brand's vibe is professional yet warm, with a luxury-minimalist aesthetic inspired by online academy and course platforms.
-
-## Target Audience
-בעלי עסקים שמעלים תוכן ברשתות חברתיות ולא רואים תוצאות
-
-## Industry
-שיווק דיגיטלי וסושיאל מדיה
-
+## About Business
 ---
 
 # Additional Resources
